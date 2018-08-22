@@ -1,0 +1,291 @@
+    1  sudo apt-get update && sudo apt-get upgrade
+    2  sudo apt-get install software-properties-common software-properties-gtk
+    3  software-properties gtk
+    4  software-properties-gtk
+    5  sud apt-get install gdebi
+    6  sudo apt-get install gdebi
+    7  sudo add-apt-repository ppa:philip.scott/elementary-tweaks
+    8  sudo apt-get update
+    9  sudo apt-get install elementary-tweaks
+   10  venv/bin/meson builddir_dbg
+   11  venv/bin/meson configure builddir_dbg -Ddebug_log=true
+   12  sudo apt install  libnss3-dev
+   13  venv/bin/meson builddir_dbg
+   14  sudo apt install x11
+   15  sudo apt-get dpkg-dev libx11-dev libxpm-dev libxft-dev libxext-dev python-dev libqt4-dev
+   16  sudo apt-get install dpkg-dev libx11-dev libxpm-dev libxft-dev libxext-dev python-dev libqt4-dev
+   17  venv/bin/meson builddir_dbg
+   18  sudo apt install libxcb-xv0-dev
+   19  venv/bin/meson builddir_dbg
+   20  sudo apt-get install xorg-dev
+   21  venv/bin/meson builddir_dbg
+   22  venv/bin/meson configure builddir_dbg -Ddebug_log=true
+   23  cd builddir_dbg
+   24  ninja
+   25  sudo apt-get install fprint-demo fprintd fprintd-doc libfprint0
+   26  sudo fprint_demo
+   27  git clone git@github.com:iafilatov/libfprint.git
+   28  git clone https://github.com/iafilatov/libfprint.git
+   29  cd libfprint
+   30  sudo apt install ninja-build
+   31  python3 -m venv venv
+   32  sudo apt-get install python3-venv
+   33  python3 -m venv venv
+   34  . venv/bin/activate
+   35  pip install -U pip
+   36  pip install meson
+   37  venv/bin/meson builddir_dbg
+   38  sudo apt-get install glib-2.0
+   39  venv/bin/meson builddir_dbg
+   40  sudo apt-get install libglib2.0-dev
+   41  venv/bin/meson builddir_dbg
+   42  sudo apt-get install libusb-1.0-0-dev
+   43  venv/bin/meson builddir_dbg
+   44  sudo apt-get install nss
+   45  sudo apt-get install libnss
+   46  venv/bin/meson builddir_dbg
+   47  hg clone https://hg.mozilla.org/projects/nspr
+   48  sudo apt install mercurial
+   49  hg clone https://hg.mozilla.org/projects/nspr
+   50  hg clone https://hg.mozilla.org/projects/nss
+   51  venv/bin/meson builddir_dbg
+   52  cs nss
+   53  cd nss
+   54  make nss_build_all
+   55  ./build.sh
+   56  sudo apt-get install gyp
+   57  ./build.sh
+   58  venv/bin/meson builddir_dbg
+   59  wget http://mirrors.kernel.org/ubuntu/pool/main/n/nss/libnss3_3.16.3-1ubuntu1_amd64.deb
+   60  ./build.sh
+   61  venv/bin/meson builddir
+   62  venv/bin/meson configure builddir -Ddoc=false -Dlibdir=lib
+   63  cd builddir
+   64  ninja
+   65  sudo ninja install
+   66  wget https://github.com/ars3niy/fprint_vfs5011/archive/master.zip
+   67  cd ./fprint_vfs5011-master
+   68  ./configure
+   69  make
+   70  lsusb
+   71  git clone https://github.com/vinceliuice/grub2-themes.git
+   72  sudo apt-get remove fingerprint-gui
+   73  sudo apt-get install policykit-gnome
+   74  sudo apt-get install policykit-1-gnome
+   75  sudo apt-get autoremove
+   76  sudo add-apt-repository ppa:linrunner/tlp && sudo apt-get update
+   77  sudo apt-get install tlp tlp-rdw
+   78  sudo tlp start
+   79  plank --preferences
+   80  sudo add-apt-repository ppa:upubuntu-com/gtk3themes
+   81  sudo apt-get update
+   82  sudo apt-get install stylish-dark-gtk3
+   83  ./Install
+   84  sudo ./Install
+   85  sudo ./Install
+   86  sudo add-apt-repository ppa:numix/ppa
+   87  sudo apt update
+   88  sudo apt install numix-gtk-theme numix-icon-theme-circle
+   89  plank
+   90  plank --preferences
+   91  sudo add-apt-repository ppa:graphics-drivers/ppa
+   92  sudo apt update
+   93  sudo add-apt-repository ppa:nilarimogard/webupd8
+   94  sudo apt-get update
+   95  sudo apt-get install prime-indicator
+   96  sudo apt install transsmission
+   97  sudo apt install transmission
+   98  sudo apt install gnome-system-monitor
+   99  sudo apt install ubuntu-restricted-extras
+  100  sudo apt install build-essential
+  101  sudo apt-get install linux-headers-$(uname -r)
+  102  sudo apt install linux-generic-lts-utopic
+  103  sudo apt-get upgrade
+  104  sudo apt-get remove fprint-demo
+  105  sudo apt-get install software-properties-common
+  106  sudo apt install vlc
+  107  sudo apt install adobe-flashplugin
+  108  sudo apt install pepperflashplugin-nonfree
+  109  sudo add-apt-repository ppa:libreoffice/libreoffice-prereleases
+  110  sudo apt-get update
+  111  sudo apt install libreoffice
+  112  sudo apt install synaptic
+  113  sudo apt install p7zip p7zip-plugins unrar
+  114  sudo apt-get install code-blocks
+  115  sudo apt-get install codeblocks
+  116  sudo apt install zenity xterm
+  117  sudo apt install wine
+  118  cd ~/Загрузки/ 
+  119  cd ~/Downloads/ 
+  120  sh PortBattleNET-55
+  121  git clone git@gitlab.com:artyom-yurin/innoHERO.git
+  122  cat ~/.ssh/id_rsa.pub
+  123  ssh-keygen -t rsa -C "i.krasheninnikov@innopolis.ru" -b 4096
+  124  xclip -sel clip < ~/.ssh/id_rsa.pub
+  125  sudo apt install xclip
+  126  xclip -sel clip < ~/.ssh/id_rsa.pub
+  127  git clone git@gitlab.com:artyom-yurin/innoHERO.git
+  128  git checkout dev
+  129  cd InnoHero
+  130  cd innohero
+  131  cd innoHERO
+  132  git checkout develop
+  133  git checkout dev
+  134  git pull
+  135  sudo gpasswd -a $ccb input
+  136  sudo apt-get install gnome-system-tools
+  137  sudo apt-get install libinput-tools
+  138  sudo gem install fusuma
+  139  sudo apt-get install gem
+  140  sudo gem install fusuma
+  141  aptitude install libgemplugin-ruby
+  142  sudo apt install aptitude
+  143  aptitude install libgemplugin-ruby
+  144  sudo sudo apt install aptitude
+  145  sudo aptitude install libgemplugin-ruby
+  146  sudo gem install fusuma
+  147  sudo apt-get install rubygems
+  148  sudo gem install fusuma
+  149  sudo apt-get install xdotool
+  150  gsettings set org.gnome.desktop.peripherals.touchpad send-events enabled
+  151  fusuma
+  152  mkdir -p ~/.config/fusuma
+  153  nano ~/.config/fusuma/config.yml
+  154  fusuma
+  155  git pull
+  156  git pull
+  157  git add .
+  158  git status
+  159  git commit -m "+configuration"
+  160  git config --global user.email "i.krasheninnikov@innopolis.ru"
+  161  git config --global user.name "Igor"
+  162  git commit -m "+configuration"
+  163  git push
+  164  git config --global push.default simple
+  165  gti pull
+  166  git pull
+  167  sudo -u
+  168  sudo
+  169  sudo apt-add-repository ppa:nilarimogard/webupd8 && sudo apt-get update
+  170  sudo apt-get install pulseaudio-equalizer
+  171  git clone git@github.com:iafilatov/libfprint.git
+  172  git clone https://github.com/iafilatov/libfprint.git
+  173  venv/bin/meson builddir_dbg
+  174  cd libfprint
+  175  venv/bin/meson builddir_dbg
+  176  python3 -m venv venv
+  177  . venv/bin/activate
+  178  pip install -U pip
+  179  pip install meson
+  180  venv/bin/meson builddir_dbg
+  181  venv/bin/meson configure builddir_dbg -Ddebug_log=true
+  182  cd builddir_dbg
+  183  ninja
+  184  make
+  185  ninja
+  186  git checkout c723a0f
+  187  ./autogen.sh
+  188  dd if=tempfile of=/dev/null bs=1M count=1024
+  189  sync; dd if=/dev/zero of=tempfile bs=1M count=1024; sync
+  190  dd if=tempfile of=/dev/null bs=1M count=1024
+  191  sudo /sbin/sysctl -w vm.drop_caches=3
+  192  dd if=tempfile of=/dev/null bs=1M count=1024
+  193  sudo apt-get install hdparm
+  194  sudo hdparm -Tt /dev/sda
+  195  clean
+  196  clear
+  197  cd.
+  198  cd .
+  199  cd /
+  200  git clone git@github.com:iafilatov/libfprint.git
+  201  git clone https://github.com/iafilatov/libfprint.git
+  202  cd libfprint
+  203  apt install ninja-build
+  204  sudo apt install ninja-build
+  205  python3 -m venv venv
+  206  . venv/bin/activate
+  207  pip install -U pip
+  208  pip install meson
+  209  venv/bin/meson builddir_dbg
+  210  venv/bin/meson configure builddir_dbg -Ddebug_log=true
+  211  cd builddir_dbg
+  212  ninja
+  213  sudo apt-get libglib2.0-dev
+  214  sudo ap install libglib2.0-dev
+  215  sudo apt install libglib2.0-dev
+  216  sudo apt install libnss3-dev
+  217  sudo apt install libpixman-1-dev
+  218  sudo apt install libusb-1.0.0-dev
+  219  libx11-dev
+  220  sudo apt install libx11-dev
+  221  sudo apt install libxv-dev
+  222  sudo apt install pkg-config
+  223  sudo apt remove pkg-config
+  224  sudo apt remove
+  225  sudo apt autoremove
+  226  sudo apt remove libglib2.0-dev
+  227  sudo apt-get remove libglib2.0-dev
+  228  sudo apt remove libnss3-dev
+  229  sudo apt remove libpixman-1-dev
+  230  sudo apt remove libusb-1.0.0-dev
+  231  sudo apt remove libx11-dev
+  232  sudo apt remove libxv-dev
+  233  sudo apt remove pkg-config
+  234  sudo apt autoremove
+  235  sudo apt update
+  236  sudo apt install libglib2.0-dev
+  237  sudo apt install libnss3-dev
+  238  sudo apt install libpixman-1-dev
+  239  sudo apt install libusb-1.0.0-dev
+  240  sudo apt install libx11-dev
+  241  sudo apt install libxv-dev
+  242  sudo apt install pkg-config
+  243  sudo apt remove ninja-build
+  244  sudo apt autoremove
+  245  sudo apt-get install python3 ninja-build
+  246  sudo apt install python3-pip
+  247  pip3 install --user meson
+  248  pip install --upgrade pip
+  249  sudo apt install python-pip
+  250  pip install --upgrade pip
+  251  pip3 install --upgrade pip3
+  252  clear
+  253  cd libfprint
+  254  python3 -m venv venv
+  255  . venv/bin/activate
+  256  pip3 install -U pip3
+  257  pip install -U pip
+  258  pip install meson
+  259  venv/bin/meson builddir_dbg
+  260  $ meson builddir && cd builddir
+  261  ninja
+  262  ninja test
+  263  ninja
+  264  ninja test
+  265  sudo add-apt-repository ppa:fingerprint/fprint
+  266  sudo apt-get update
+  267  LD_LIBRARY_PATH=./libfprint/.libs/ fprint_demo
+  268  sudo LD_LIBRARY_PATH=./libfprint/.libs/ fprint_demo
+  269  git clone https://github.com/iafilatov/libfprint.git
+  270  cd libfprint
+  271  apt install ninja-build
+  272  sudo apt install ninja-build
+  273  sudo apt update
+  274  python3 -m venv venv
+  275  . venv/bin/activate
+  276  pip install -U pip
+  277  pip install meson
+  278  venv/bin/meson builddir_dbg
+  279  venv/bin/meson configure builddir_dbg -Ddebug_log=true
+  280  ninja
+  281  cd builddir_dbg
+  282  ninja
+  283  software-properties-gtk
+  284  sudo apt install firefox
+  285  ls /usr/bin | grep 'gcc' > ex1.txt | sort -r
+  286  pwd
+  287  whoami
+  288  man man
+  289  ls --help
+  290  sudo apt update
+  291  history > ex2.txt
