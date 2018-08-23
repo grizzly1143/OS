@@ -282,10 +282,91 @@
   282  ninja
   283  software-properties-gtk
   284  sudo apt install firefox
-  285  ls /usr/bin | grep 'gcc' > ex1.txt | sort -r
-  286  pwd
-  287  whoami
-  288  man man
-  289  ls --help
-  290  sudo apt update
-  291  history > ex2.txt
+  285  sudo apt-get install docker
+  286  sudo docker run hello-world
+  287  sudo apt-get install docker-ce
+  288  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+  289     $(lsb_release -cs) \
+  290     stable"
+  291  sudo apt-get install docker-ce
+  292  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+  293     $(lsb_release -cs) \
+  294  pwd
+  295  whoami
+  296  man man
+  297  ls --help
+  298  sudo apt update
+  299  history > ex2.txt
+  300  sh ex3.sh
+  301  gcc main.c -o ex4
+  302  gedit main.c
+  303  sudo apt install gedit
+  304  gedit main.c
+  305  gcc main.c -o ex4
+  306  pwdgcc main.c -o ex4
+  307  gcc main.c -o ex4
+  308  ./ex4
+  309  git remote add origin https://github.com/grizzly1143/OS.git
+  310  git init
+  311  git add .
+  312  git commit -m "Lab1"
+  313  git remote add origin https://github.com/grizzly1143/OS.git
+  314  git push -u origin master
+  315  makedir "Lab1"
+  316  mkdir /Lab 1
+  317  whoami
+  318  man mna
+  319  man man
+  320  mkdir week1
+  321  cd week1
+  322  ls /usr/bin > ex1.txt | sort -r 
+  323  ls -c -ltd -- *gcc* /usr/bin > ex1.txt | sort -r
+  324  ls /usr/bin > ex1.txt | sort -r 
+  325  ls -h
+  326  ls -help
+  327  ls --help
+  328  ls -c -ltd -- *gcc* /usr/bin > ex1.txt | sort -r
+  329  ls -c -ltd -- *gcc*. /usr/bin > ex1.txt | sort -r
+  330  Is --help
+  331  ls --contain
+  332  grep --help
+  333  ls /usr/bin > ex1.txt | grep -l *gcc* | sort -r 
+  334  ls /usr/bin > ex1.txt | grep 'gcc' | sort -r 
+  335  ls /usr/bin > ex1.txt | grep -E 'gcc' | sort -r 
+  336  grep 'gcc' ls /usr/bin > ex1.txt | sort -r
+  337  ls usr/bin | grep 'gcc' > ex1.txt | sort -r
+  338  ls /usr/bin | grep 'gcc' > ex1.txt | sort -r
+  339  mkdir /week1
+  340  su
+  341  sudo mkdir /week1
+  342  cd week1
+  343  cd /week1
+  344  sudo apt install docker
+  345  sudo apt remove docker
+  346  sudo apt-get remove docker docker-engine docker.io
+  347  sudo apt autoremove
+  348  sudo apt-get install     apt-transport-https     ca-certificates     curl     software-properties-common
+  349  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  350  sudo apt-key fingerprint 0EBFCD88
+  351  pub   4096R/0EBFCD88 2017-02-22
+  352  uid                  Docker Release (CE deb) <docker@docker.com>
+  353  sub   4096R/F273FCD8 2017-02-22
+  354  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+  355     $(lsb_release -cs) \
+  356     stable"
+  357  sudo apt-get update
+  358  sudo apt-get install docker-ce
+  359  sudo add-apt-repository \"deb [arch=amd64] https://download.docker.com/linux/ubuntu\$(lsb_release -cs)\stable"
+  360  sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+  361  sudo apt-add-repository 'deb https://apt.dockerproject.org/repo ubuntu-xenial main'
+  362  sudo apt-get update
+  363  apt-cache policy docker-engine
+  364  sudo apt-get install -y docker-engine
+  365  sudo systemctl status docker
+  366  sudo docker hello-world
+  367  hack lenargum
+  368  sudo apt upgrade
+  369  ls usr/bin | grep 'gcc' | sort -r > ex1.txt
+  370  ls /usr/bin | grep 'gcc' | sort -r > ex1.txt
+  371  histore > ex2.txt
+  372  history > ex2.txt
