@@ -31,5 +31,5 @@ int main() {
 		for (int j = 0; j <= i; j++) printf("%d ", arr[j]);
 		printf ("\n");
 	}
-	free(arr);
+	myrealloc(arr, 0);
 }

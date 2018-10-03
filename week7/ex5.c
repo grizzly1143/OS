@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-	char *s;
+	char **s = malloc(1);
 	char foo[] = "Hello World";
-	s = foo;
-	printf("s is %s\n",s);
-	printf("s[0] is %c\n",s[0]);
+	*s = foo;
+	printf("s is %s\n",*s);
+	printf("s[0] is %s\n",s[0]);
 	return(0);
 } 
