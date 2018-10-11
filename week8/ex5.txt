@@ -1,0 +1,1 @@
+Physical address is the adress which is assigned to memory blocks in RAM. Virtual address is the address which is assigned by the program to its memory (which is allocated for it by th OS). Virtual memory address correspond to some physical address.
