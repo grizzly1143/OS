@@ -1,0 +1,4 @@
+-rw-rw-rw- 1 ccb ccb 0 Oct 24 13:26 _ex3.txt
+-rwxrw-rwx 1 ccb ccb 0 Oct 24 13:26 _ex3.txt
+-rwxrwxrwx 1 ccb ccb 0 Oct 24 13:26 _ex3.txt
+
