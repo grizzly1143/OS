@@ -1,0 +1,1 @@
+In the first programm we will have "Hello" in the first line and another one in the second. But in the second programm we will have the additional blank line. This is happening because in the first example we fork before "\n" and in the second we fork after we pring "\n" because of that we will have additional blank line.
